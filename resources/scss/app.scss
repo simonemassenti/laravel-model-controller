@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: lightgreen;
+    background-color: lightsalmon;
+    .movie-card {
+        border: 3px solid blue;
+        width: 30%;
+        border-radius: 10px;
+        background: rgb(244, 188, 188);
+
+        img {
+            width: 100%;
+            border-radius: 15px;
+            padding: 10px;
+        }
+    }
 }
